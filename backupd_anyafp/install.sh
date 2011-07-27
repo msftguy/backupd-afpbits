@@ -18,7 +18,7 @@ function do_stuff
     sudo launchctl load /System/Library/LaunchDaemons/com.apple.backupd.plist
     sudo killall backupd 2&>1 >/dev/null
 
-    echo 
+    echo 'All done!'
     exit 0
 }
 
