@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D68661413EAC9270062A4B5 /* libimpHook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D68661313EAC9270062A4B5 /* libimpHook.a */; };
 		9DDD9F3C13C9258100027804 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD9F3B13C9258100027804 /* main.c */; };
-		9DDD9F5713C9282E00027804 /* libimpHook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DDD9F5613C9282E00027804 /* libimpHook.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9D5BB84113E00E6000A83FA5 /* install.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = install.sh; path = backupd_anyafp/install.sh; sourceTree = "<group>"; };
+		9D68661313EAC9270062A4B5 /* libimpHook.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimpHook.a; path = impHook/build/Debug/libimpHook.a; sourceTree = "<group>"; };
 		9DDD9F3413C9255C00027804 /* libbackupd_anyfs.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libbackupd_anyfs.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DDD9F3B13C9258100027804 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		9DDD9F5613C9282E00027804 /* libimpHook.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libimpHook.a; path = ../impHook/build/Debug/libimpHook.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -23,7 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DDD9F5713C9282E00027804 /* libimpHook.a in Frameworks */,
+				9D68661413EAC9270062A4B5 /* libimpHook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,8 +33,8 @@
 		9DDD9F2913C9255C00027804 = {
 			isa = PBXGroup;
 			children = (
+				9D68661313EAC9270062A4B5 /* libimpHook.a */,
 				9D5BB84113E00E6000A83FA5 /* install.sh */,
-				9DDD9F5613C9282E00027804 /* libimpHook.a */,
 				9DDD9F3B13C9258100027804 /* main.c */,
 				9DDD9F3513C9255C00027804 /* Products */,
 			);
@@ -171,6 +171,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../impHook/build/Debug\"",
+					"\"$(SRCROOT)/impHook/build/Debug\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -184,6 +185,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../impHook/build/Debug\"",
+					"\"$(SRCROOT)/impHook/build/Debug\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

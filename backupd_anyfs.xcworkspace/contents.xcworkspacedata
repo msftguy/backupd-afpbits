@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:backupd_anyafp/install.sh">
+      location = "group:impHook/impHook.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../impHook/impHook.xcodeproj">
+      location = "group:backupd_anyafp/install.sh">
    </FileRef>
    <FileRef
       location = "group:backupd_anyfs.xcodeproj">
