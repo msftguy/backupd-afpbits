@@ -170,7 +170,6 @@
 				INIT_ROUTINE = _dl_main;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../impHook/build/Debug\"",
 					"\"$(SRCROOT)/impHook/build/Debug\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -184,7 +183,6 @@
 				INIT_ROUTINE = _dl_main;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)/../impHook/build/Debug\"",
 					"\"$(SRCROOT)/impHook/build/Debug\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";

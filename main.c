@@ -7,7 +7,7 @@
 //
 #include <stdio.h>
 #include <sys/errno.h>
-#include "../impHook/impHookApi.h"
+#include "impHook/impHookApi.h"
 #include <mach-o/dyld.h>
 #include <mach-o/dyld_images.h>
 #include <sys/unistd.h>
